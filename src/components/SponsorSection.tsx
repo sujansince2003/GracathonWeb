@@ -52,7 +52,7 @@ export const SponsorSection = () => {
       <div className="mb-20 text-center text-4xl font-semibold sm:text-5xl font-noto-sans bg-clip-text  bg-gradient-to-b from-white to-[#AAAAAA]">
         Sponsors
       </div>
-      <h1 className="flex justify-center text-4xl font-bold font-noto-sans bg-clip-text  bg-gradient-to-b from-white to-[#AAAAAA]">
+      <h1 className="flex justify-center text-4xl font-bold font-noto-sans bg-clip-text  text-center bg-gradient-to-b from-white to-[#AAAAAA]">
         DIAMOND SPONSORS
       </h1>
       <div className="flex flex-wrap justify-center gap-10 py-10">
@@ -65,6 +65,8 @@ export const SponsorSection = () => {
               <Image
                 src={sponsor.image}
                 loading="lazy"
+                width={500} // Add width
+                height={200} // Add height
                 alt={sponsor.alt}
                 className={`h-auto w-[500px] rounded-2xl object-contain p-3 animate-mover`}
               />
@@ -85,6 +87,8 @@ export const SponsorSection = () => {
               <Image
                 src={sponsor.image}
                 loading="lazy"
+                width={500} // Add width
+                height={200} // Add height
                 alt={sponsor.alt}
                 className={`h-auto w-[500px] rounded-2xl object-contain p-3 animate-mover`}
               />
@@ -105,6 +109,8 @@ export const SponsorSection = () => {
               <Image
                 src={sponsor.image}
                 loading="lazy"
+                width={500} // Add width
+                height={200} // Add height
                 alt={sponsor.alt}
                 className={`h-auto w-72 rounded-2xl object-contain p-3 sm:h-28 animate-mover`}
               />
