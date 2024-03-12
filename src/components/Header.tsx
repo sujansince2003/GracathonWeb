@@ -16,15 +16,19 @@ const NavLinks = [
     link: "Prizes",
   },
   {
-    name: "Themes",
-    link: "Themes",
+    name: "Tracks",
+    link: "Tracks",
+  },
+  {
+    name: "Timeline",
+    link: "Timeline",
   },
   {
     name: "Sponsors",
     link: "Sponsors",
   },
   {
-    name: "Organizers",
+    name: "Judges",
     link: "Organizers",
   },
   {

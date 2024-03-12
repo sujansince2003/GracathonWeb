@@ -1,7 +1,9 @@
 import { IconBrandDiscord } from "@tabler/icons-react";
 import Image from "next/image";
-import logo from "public/assets/logo.png";
-import Heroimg from "public/assets/heroimg.webp";
+import logo from "public/assets/mainlogo.png";
+
+import handshake from "public/assets/handshakee.png";
+import grace from "public/assets/gracelogo.jpeg";
 import { useState, useEffect } from "react";
 import Typewriter from "./Typewriter";
 
@@ -21,42 +23,12 @@ export const HeroSection = () => {
     };
   }, []);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      const timeleft =
-        new Date("March 21, 2024 09:00:00").getTime() - new Date().getTime();
-      setDays(
-        `${
-          Math.floor(timeleft / (1000 * 60 * 60 * 24)) < 10
-            ? "0" + Math.floor(timeleft / (1000 * 60 * 60 * 24))
-            : Math.floor(timeleft / (1000 * 60 * 60 * 24))
-        }`
-      );
-      setHours(
-        `${
-          Math.floor((timeleft / (1000 * 60 * 60)) % 24) < 10
-            ? "0" + Math.floor((timeleft / (1000 * 60 * 60)) % 24)
-            : Math.floor((timeleft / (1000 * 60 * 60)) % 24)
-        }`
-      );
-      setMinutes(
-        `${
-          Math.floor((timeleft / 1000 / 60) % 60) < 10
-            ? "0" + Math.floor((timeleft / 1000 / 60) % 60)
-            : Math.floor((timeleft / 1000 / 60) % 60)
-        }`
-      );
-    }, 1000);
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <section
       id="Home"
       className="min-h-screen flex lg:flex-row items-center flex-col py-10 md:py-2 justify-between"
     >
-      <div className="w-full flex  justify-between flex-col">
-        {/* <Image src={logo} alt="association logo" height={200} width={200} /> */}
+      <div className="w-[50%] flex  justify-between flex-col">
         <div className="text-white md:px-16 px-10 flex flex-col gap-3">
           <h1 className="md:text-7xl text-5xl font-extrabold">
             Join Gracathon
@@ -99,9 +71,27 @@ export const HeroSection = () => {
         </div>
       </div>
 
-      <div className="px-16">
-        <Image src={Heroimg} alt="heroimg" />
+      <div className="flex justify-between  gap-1 ">
+        <Image
+          className="rounded-full "
+          src={logo}
+          alt="association logo"
+          height={100}
+          width={180}
+        />
+        <Image src={handshake} alt="association logo" height={50} width={180} />
+
+        <Image
+          className="rounded-full"
+          src={grace}
+          alt="association logo"
+          width={200}
+          height={100}
+        />
       </div>
+      {/* <div className="px-16">
+        <Image src={Heroimg} alt="heroimg" />
+      </div> */}
     </section>
   );
 };
