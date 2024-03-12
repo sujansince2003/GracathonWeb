@@ -30,19 +30,30 @@ const SocialIcon = ({
 export const ContactUsSection = () => {
   const socials = [
     {
-      href: "https://www.instagram.com/hacksrm23/",
+      href: "https://www.facebook.com/csit.bmc",
       icon: (
-        <IconBrandInstagram
-          size={50}
-          stroke={1.5}
-          className="text-fuchsia-500"
-        />
+        <i
+          className="fa-brands fa-facebook-f text-3xl"
+          style={{ color: "#e0dee8 " }}
+        ></i>
       ),
     },
     {
-      href: "https://www.linkedin.com/in/hack-srm-0a5624274/",
+      href: "https://np.linkedin.com/company/csitabmc?trk=ppro_cprof",
       icon: (
-        <IconBrandLinkedin size={50} stroke={1.5} className="text-blue-600" />
+        <i
+          className="fa-brands fa-linkedin-in text-3xl"
+          style={{ color: "#edeff3" }}
+        ></i>
+      ),
+    },
+    {
+      href: "https://csitabmc.com",
+      icon: (
+        <i
+          className="fa-solid fa-link text-3xl"
+          style={{ color: "#e2e5e9" }}
+        ></i>
       ),
     },
   ];
