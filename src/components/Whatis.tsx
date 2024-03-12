@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import codelogo from "public/assets/codelogo.png";
+import codelogo from "public/assets/code.png";
 
 export const Whatis = () => {
   return (
@@ -27,7 +27,7 @@ export const Whatis = () => {
           opportunity to learn new skills, meet new people, and have fun.
         </p>
       </div>
-      <div>
+      <div className="hidden md:block">
         <Image src={codelogo} alt="codelogo" height={300} width={300} />
       </div>
       {/* <div className="px-16">
