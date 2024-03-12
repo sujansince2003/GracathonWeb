@@ -10,7 +10,6 @@ module.exports = {
       "noto-sans": "var(--font-noto-sans)",
     },
     extend: {
-      // Your existing extensions
       animation: {
         mover: "mover 1s infinite alternate",
       },
