@@ -20,23 +20,21 @@ export function MainPrizes() {
             Grand Prize: Rs.50000
           </div>
         </div>
-        <div className="flex">
+        <div className="flex flex-col md:flex-row gap-3">
           <div className="z-0 max-w-2xl font-noto-sans mx-auto flex flex-col items-center justify-evenly space-y-4 rounded-lg border border-gray-800 bg-[#121930] p-8">
-            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-green-500">
-              <IconTrophy size={48} stroke={1.5} color="yellow" />
+            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-indigo-500">
+              <IconTrophy size={48} stroke={1.5} color="#fff" />
             </div>
-            <div></div>
             <div className="text-center text-2xl font-semibold text-white">
-              1st Runner Up: Rs.40000
+              Grand Prize: Rs.50000
             </div>
           </div>
           <div className="z-0 max-w-2xl font-noto-sans mx-auto flex flex-col items-center justify-evenly space-y-4 rounded-lg border border-gray-800 bg-[#121930] p-8">
-            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-yellow-500">
-              <IconTrophy size={48} stroke={1.5} color="green" />
+            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-indigo-500">
+              <IconTrophy size={48} stroke={1.5} color="#fff" />
             </div>
-            <div></div>
             <div className="text-center text-2xl font-semibold text-white">
-              2nd Runner Up: Rs.3000
+              Grand Prize: Rs.50000
             </div>
           </div>
         </div>
