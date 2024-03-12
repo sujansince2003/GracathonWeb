@@ -52,10 +52,10 @@ export const ContactUsSection = () => {
       <div className="mb-20 text-center text-4xl font-semibold sm:text-5xl font-noto-sans bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
         Contact Us
       </div>
-      <div className="my-8 font-noto-sans flex flex-col items-center justify-evenly">
+      <div className="my-8 font-noto-sans flex flex-col items-center justify-evenly gap-6">
         <div className="flex items-center justify-center space-x-6">
           <IconMail
-            className="h-20 w-20  rounded-full bg-indigo-600 p-4 text-white sm:h-16 sm:w-16"
+            className="h-14 w-14  rounded-full bg-indigo-600 p-4 text-white md:h-20 md:w-20"
             stroke={1.5}
           />
 
@@ -63,6 +63,16 @@ export const ContactUsSection = () => {
             <a href="mailto:hacksrm23@gmail.com">
               csitassociationbmc@gmail.com
             </a>
+          </div>
+        </div>
+        <div className="flex items-center justify-center space-x-6">
+          <i
+            className="fa-solid fa-phone text-3xl"
+            style={{ color: "#4007e9" }}
+          ></i>
+
+          <div className="indigo z-10 text-center text-xl text-gray-200 antialiased sm:text-2xl">
+            +977- 981-5490890
           </div>
         </div>
       </div>
@@ -82,29 +92,66 @@ export const ContactUsSection = () => {
         <h5 className="text-center text-2xl font-semibold text-gray-200">
           Organized by
         </h5>
-        <div className="flex justify-between  gap-1 ">
-          <Image
-            className="rounded-full "
-            src={logo}
-            alt="association logo"
-            height={100}
-            width={180}
-          />
+        <div className="md:flex hidden justify-between  gap-1 ">
+          <a href="https://csitabmc.com/" target="_blank">
+            <Image
+              className="rounded-full "
+              src={logo}
+              alt="association logo"
+              height={100}
+              width={180}
+            />
+          </a>
           <Image
             src={handshake}
             alt="association logo"
             height={50}
             width={180}
           />
+          <a href="https://facebook.com" target="_blank">
+            <Image
+              className="rounded-full"
+              src={grace}
+              alt="grace logo"
+              width={200}
+              height={100}
+            />
+          </a>
+        </div>
+        <div className="flex md:hidden justify-between  gap-1 md:px-16 px-10 my-10 ">
+          <Image
+            className="rounded-full "
+            src={logo}
+            alt="association logo"
+            height={100}
+            width={100}
+          />
+          <Image
+            src={handshake}
+            alt="association logo"
+            height={50}
+            width={100}
+          />
 
           <Image
             className="rounded-full"
             src={grace}
             alt="association logo"
-            width={200}
-            height={100}
+            width={100}
+            height={150}
           />
         </div>
+      </div>
+
+      <div className="text-white pt-3">
+        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        <p className="text-center">
+          CSIT Association of Butwal Multiple Campus
+        </p>
+        <p className="text-center">
+          Build with ❤️ by{" "}
+          <a href="https://facebook.com/sujansince2003">Sujan Khatri</a>
+        </p>
       </div>
     </section>
   );
