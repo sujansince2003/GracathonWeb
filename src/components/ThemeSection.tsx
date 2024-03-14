@@ -66,7 +66,7 @@ export const ThemeSection = () => {
   return (
     <section
       id="Tracks"
-      className="min-h-screen w-full px-0 py-16 md:px-10 bg-[url('/assets/background.png')] bg-contain"
+      className="min-h-screen w-full px-0 py-16 md:px-10 bg-[#F2F6FB] bg-contain"
     >
       <div className="mb-20 text-center text-4xl font-semibold sm:text-5xl font-noto-sans bg-clip-text  bg-gradient-to-b from-white to-[#AAAAAA]">
         Tracks

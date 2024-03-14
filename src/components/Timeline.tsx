@@ -4,7 +4,7 @@ export function Timeline() {
   return (
     <section
       id="Timeline"
-      className="py-20 w-full px-6 md:px-10 bg-[url('/assets/background.png')] bg-contain flex flex-col justify-center items-center"
+      className="py-20 w-full px-6 md:px-20 bg-[#F2F6FB] bg-contain flex flex-col justify-center items-center"
     >
       <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
       <div className="mb-20 text-center text-4xl font-semibold sm:text-5xl font-noto-sans bg-clip-text  bg-gradient-to-b from-white to-[#AAAAAA]">
@@ -15,66 +15,61 @@ export function Timeline() {
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            February 2022
+            Phase 1: [Deadline 15th Chaitra]
           </time>
           <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Application UI code in Tailwind CSS
+            Registration via Online Form:
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            Get access to over 20+ pages including a dashboard layout, charts,
-            kanban board, calendar, and pre-order E-commerce & Marketing pages.
+            The gateway to GRACATHON 2024 commences with a streamlined online
+            registration process. Our designated website serves as the official
+            platform for teams across the nation to register for this
+            prestigious event. Assemble your team of talented individuals and
+            embark on this journey of innovation.
           </p>
         </li>
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            February 2022
+            Phase 2: [17th Chaitra]
           </time>
           <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Application UI code in Tailwind CSS
+            Prototype Development:
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            Get access to over 20+ pages including a dashboard layout, charts,
-            kanban board, calendar, and pre-order E-commerce & Marketing pages.
+            Using coding, design, and other relevant skills, teams will build
+            functional prototypes of their solutions. This phase will involve
+            rapid development, iterative feedback, and continuous improvement
+            which is evaluated by a panel of judges. The entire Phase 2 will be
+            conducted online.
           </p>
         </li>
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            February 2022
+            Phase 3:
           </time>
           <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Application UI code in Tailwind CSS
+            Selection of Finalists:
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            Get access to over 20+ pages including a dashboard layout, charts,
-            kanban board, calendar, and pre-order E-commerce & Marketing pages.
+            Judges will evaluate solutions based on innovation, technical
+            execution, usability, and potential impact.
           </p>
         </li>
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            February 2022
+            Phase 4: [23th - 24th Chaitra]
           </time>
           <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Application UI code in Tailwind CSS
+            Journey to the Grand Finale:
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            Get access to over 20+ pages including a dashboard layout, charts,
-            kanban board, calendar, and pre-order E-commerce & Marketing pages.
-          </p>
-        </li>
-        <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            February 2022
-          </time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Application UI code in Tailwind CSS
-          </h3>
-          <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            Get access to over 20+ pages including a dashboard layout, charts,
-            kanban board, calendar, and pre-order E-commerce & Marketing pages.
+            The panel of judges evaluates the submissions, selecting 10
+            finalists based on innovation, presentation quality, and alignment
+            with the challenge criteria; finalists are notified of their
+            selection.
           </p>
         </li>
       </ol>

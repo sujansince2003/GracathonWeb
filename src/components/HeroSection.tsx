@@ -11,18 +11,18 @@ export const HeroSection = () => {
   return (
     <section
       id="Home"
-      className="md:min-h-screen flex lg:flex-row flex-col-reverse md:items-center md:flex-col py-10 md:py-2 md:justify-between"
+      className="md:min-h-screen flex lg:flex-row flex-col-reverse md:items-center md:flex-col py-10 md:py-2 md:justify-evenly"
     >
       <div className="md:w-[50%] w-full  flex  justify-between flex-col">
         <div className="text-white md:px-16 px-10 flex flex-col gap-3">
-          <h1 className="md:text-7xl text-5xl font-extrabold">
+          <h1 className="md:text-6xl text-5xl font-extrabold text-yellow-400">
             Join Gracathon
           </h1>
 
           <div className="h-[40px]">
             <Typewriter
               texts={[
-                "36 Hours of creation  ",
+                "24 Hours of creation  ",
                 "Win Awesome Prizes ",
                 "Learn Build Create ",
               ]}
@@ -36,7 +36,7 @@ export const HeroSection = () => {
           </p>
           <div className="pt-6 z-10 flex gap-x-4 flex-col gap-y-4">
             <a
-              href=""
+              href="https://forms.gle/6PjqoKrFByAfpHP67"
               target="_blank"
               rel="noopener noreferrer"
               className="flex w-80 items-center justify-center gap-2 rounded-md bg-indigo-500 py-2.5 text-white"
@@ -50,7 +50,7 @@ export const HeroSection = () => {
               className="flex w-80 items-center justify-center gap-2 rounded-md bg-indigo-500 py-2.5 text-white"
             >
               <IconBrandDiscord size={24} />
-              <span className="font-bold">Join Discord</span>
+              <span className="font-bold">Join Our Discord</span>
             </a>
           </div>
         </div>

@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Graceathon</title>
+        <title>GRACATHON</title>
         <meta name="description" content="Hackathon" />
         <link
           rel="apple-touch-icon"

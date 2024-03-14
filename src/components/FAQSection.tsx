@@ -8,9 +8,9 @@ const FAQData = [
       "A hackathon is a programming competition in which competitors use technology to build innovative projects within a fixed time duration. There will be opportunities to win cool prizes, learn from our key-note speakers, and network with our sponsors.",
   },
   {
-    question: "Who can participate in Gracathon ?",
+    question: "Who can participate in GRACATHON ?",
     answer:
-      "Anyone! Whether you are a total beginner or a tech wizard, it doesn’t matter. We encourage anyone who is interested in learning more about Hackathons, programming, and the tech industry to join HackSRM!",
+      "Anyone! Whether you are a total beginner or a tech wizard, it doesn’t matter. We encourage anyone who is interested in learning more about Hackathons, programming, and the tech industry to join Gracathon",
   },
   {
     question: "Do I have to know how to code to join ?",
@@ -18,18 +18,19 @@ const FAQData = [
       "Nope! You can learn along the way or team up with experienced programmers. Skills such as designing, business planning, and etc are all going to impact the projects in various ways!",
   },
   {
-    question: "How much does it cost to participate in Gracathon??",
-    answer: "Registration fee is Nrs.4000",
+    question: "How much does it cost to participate in GRACATHON??",
+    answer:
+      "Registration fee is Nrs.3000 per team (Maximum of 4 people per team)",
   },
   {
     question: "Is it a team event ?",
     answer:
       "Yes, you can form teams of up to 5 people. Minimum team size is of 3 members",
   },
-  {
-    question: "Can I apply individually ?",
-    answer: "Yes, you can also form a team after you get selected.",
-  },
+  // {
+  //   question: "Can I apply individually ?",
+  //   answer: "Yes, you can also form a team after you get selected.",
+  // },
 
   {
     question: "Is there a code of conduct ?",
@@ -38,16 +39,15 @@ const FAQData = [
   },
   {
     question: "What is the venue of the hackathon?",
-    answer: "Gracthon will be hosted on Chaitra 24th - 25 2080 at Butwal.",
+    answer:
+      "Gracthon will be hosted at SynthBit Hall, Amarpath, Butwal (In Front of Grace International) ",
   },
 ];
 
 export function FAQSection() {
   return (
-    <section
-      id="FAQs"
-      className="min-h-screen py-4 pt-20 bg-[url('/assets/background.png')]"
-    >
+    <section id="FAQs" className="min-h-screen py-4 pt-20 bg-[#F2F6FB] ">
+      {/* bg-[url('/assets/background.png')] */}
       <div className="mb-20 text-center text-4xl font-semibold sm:text-5xl font-noto-sans bg-clip-text bg-gradient-to-b from-white to-[#AAAAAA]">
         Frequently Asked Questions
       </div>

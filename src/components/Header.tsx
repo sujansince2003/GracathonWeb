@@ -23,14 +23,14 @@ const NavLinks = [
     name: "Timeline",
     link: "Timeline",
   },
-  {
-    name: "Sponsors",
-    link: "Sponsors",
-  },
-  {
-    name: "Judges",
-    link: "Organizers",
-  },
+  // {
+  //   name: "Sponsors",
+  //   link: "Sponsors",
+  // },
+  // {
+  //   name: "Judges",
+  //   link: "Organizers",
+  // },
   {
     name: "FAQs",
     link: "FAQs",
@@ -46,10 +46,10 @@ export const Header = () => {
       {/* Desktop Header */}
       <div className="hidden h-full md:block">
         {/* <Image src={logo} alt="association logo" height={50} width={50} /> */}
-        <div className="flex h-full justify-start p-6 gap-9 text-xl">
+        <div className="flex h-full justify-end p-6 gap-9 text-xl">
           {NavLinks.map((link) => (
             <a
-              className="indigo cursor-pointer font-noto-sans  text-gray-300 antialiased hover:text-indigo-500"
+              className="indigo cursor-pointer font-noto-sans font-bold  text-gray-300 antialiased hover:text-indigo-500"
               key={link.name}
               href={`#${link.link}`}
             >

@@ -46,7 +46,7 @@ export const SponsorSection = () => {
   return (
     <section
       id="Sponsors"
-      className="min-h-screen px-2 pb-4 pt-5 sm:px-10 sm:pt-10 bg-[url('/assets/background.png')] bg-contain"
+      className="min-h-screen px-2 pb-4 pt-5 sm:px-10 sm:pt-10 bg-[#F2F6FB] bg-contain"
     >
       <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
       <div className="mb-20 text-center text-4xl font-semibold sm:text-5xl font-noto-sans bg-clip-text  bg-gradient-to-b from-white to-[#AAAAAA]">
