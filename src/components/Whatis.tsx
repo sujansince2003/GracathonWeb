@@ -18,7 +18,7 @@ export const Whatis = () => {
           What is GRACATHON?
         </h2>
         <p className="z-10 font-noto-sans text-base font-bold ">
-          "GRACATHON, Organized by CSIT Association of BMC which is supported by
+          GRACATHON, Organized by CSIT Association of BMC which is supported by
           Grace International, transcends traditional hackathons by providing a
           dynamic platform where diverse participants converge to tackle
           societal challenges through creativity, technology, and collaboration.
@@ -28,7 +28,7 @@ export const Whatis = () => {
           evolve into impactful ventures, all while cultivating a vibrant
           ecosystem of collaboration and inclusion. In essence, GRACATHON
           represents a transformative experience, uniting minds and aspirations
-          in the pursuit of positive change."
+          in the pursuit of positive change.
         </p>
       </div>
       <div className="hidden md:block">
