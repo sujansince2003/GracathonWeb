@@ -20,7 +20,7 @@ const FAQData = [
   {
     question: "How much does it cost to participate in GRACATHON??",
     answer:
-      "Registration fee is Nrs.3000 per team (Maximum of 4 people per team)",
+      "Registration fee is Nrs.3000 per team after you get selected.Selection round is free to register  ",
   },
   {
     question: "Is it a team event ?",
