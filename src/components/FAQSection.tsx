@@ -39,7 +39,7 @@ const FAQData = [
   {
     question: "What is the venue of the hackathon?",
     answer:
-      "Gracthon will be hosted at SynthBit Hall, Amarpath, Butwal (In Front of Grace International) ",
+      "Gracathon will be hosted at SynthBit Hall, Amarpath, Butwal (In Front of Grace International) ",
   },
 ];
 
