@@ -13,12 +13,14 @@
     "@react-three/drei": "^9.99.2",
     "@react-three/fiber": "^8.15.16",
     "@tabler/icons-react": "^2.47.0",
+    "aos": "^3.0.0-beta.6",
     "maath": "^0.7.0",
     "next": "13.4.8",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "20.3.3",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
