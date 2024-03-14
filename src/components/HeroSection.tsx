@@ -32,7 +32,7 @@ export const HeroSection = () => {
           </div>
           <p className="text-xl font-semibold">
             Join us on 24 & 25 Chaitra 2080 with curious geeks from across the
-            nation for 36 hours of creation, innovation, & fun.
+            nation for 24 hours of creation, innovation, & fun.
           </p>
           <div className="pt-6 z-10 flex gap-x-4 flex-col gap-y-4">
             <a
