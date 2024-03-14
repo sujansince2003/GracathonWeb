@@ -2,7 +2,7 @@ import {
   IconTrophy,
   IconMedal2,
   IconAward,
-  IconBulb,
+  IconGitBranch,
 } from "@tabler/icons-react";
 import secondmedal from "public/assets/2ndmedal.png";
 
@@ -58,10 +58,10 @@ export function MainPrizes() {
           className="z-0 max-w-2xl font-noto-sans mx-auto flex flex-col items-center justify-evenly space-y-4 rounded-lg border border-gray-800 bg-[#121930] p-8"
         >
           <div className="flex h-16 w-16 items-center justify-center rounded-full bg-indigo-500">
-            <IconBulb size={48} stroke={1.5} color="#fff" />
+            <IconGitBranch size={48} stroke={1.5} color="#fff" />
           </div>
           <div className="text-center text-2xl font-semibold text-white">
-            Unique Project: Rs.3,333
+            Best Commit Award: Rs.3,333
           </div>
         </div>
       </div>
