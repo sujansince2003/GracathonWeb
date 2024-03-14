@@ -24,7 +24,7 @@ const noto_sans = {
 
 export default function HomePage() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ duration: 1000 });
   }, []);
   return (
     <div className={noto_sans.variable}>
