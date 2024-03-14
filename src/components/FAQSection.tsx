@@ -20,12 +20,11 @@ const FAQData = [
   {
     question: "How much does it cost to participate in GRACATHON??",
     answer:
-      "Registration fee is Nrs.3000 per team after you get selected.Selection round is free to register  ",
+      "Selection round is free to register.Registration fee is Nrs.3000 per team after you get selected for Finals. ",
   },
   {
     question: "Is it a team event ?",
-    answer:
-      "Yes, you can form teams of up to 5 people. Minimum team size is of 3 members",
+    answer: "Yes, you can form teams of up to 4 people.",
   },
   // {
   //   question: "Can I apply individually ?",
