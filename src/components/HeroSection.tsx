@@ -1,6 +1,9 @@
 import { IconBrandDiscord } from "@tabler/icons-react";
 import Image from "next/image";
 import logo from "public/assets/mainlogo.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 import handshake from "public/assets/handshakee.png";
 import grace from "public/assets/gracelogo.jpeg";
@@ -8,12 +11,18 @@ import grace from "public/assets/gracelogo.jpeg";
 import Typewriter from "./Typewriter";
 
 export const HeroSection = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <section
       id="Home"
       className="md:min-h-screen flex lg:flex-row flex-col-reverse md:items-center md:flex-col py-10 md:py-2 md:justify-evenly"
     >
-      <div className="md:w-[50%] w-full  flex  justify-between flex-col">
+      <div
+        className="md:w-[50%] w-full  flex  justify-between flex-col"
+        data-aos="fade-right"
+      >
         <div className="text-white md:px-16 px-10 flex flex-col gap-3">
           <h1 className="md:text-6xl text-5xl font-extrabold text-yellow-400">
             Join Gracathon
@@ -56,7 +65,10 @@ export const HeroSection = () => {
         </div>
       </div>
 
-      <div className="md:flex hidden justify-between  gap-1 pr-8 ">
+      <div
+        data-aos="fade-left"
+        className="md:flex hidden justify-between  gap-1 pr-8 "
+      >
         <a href="https://csitabmc.com/" target="_blank">
           <Image
             className="rounded-full "

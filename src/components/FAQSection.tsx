@@ -54,7 +54,12 @@ export function FAQSection() {
         <div className="mx-auto flex max-w-2xl font-noto-sans flex-col space-y-3 rounded-md">
           {FAQData.map((faq) => {
             return (
-              <div key={faq.question} className="z-10">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="3000"
+                key={faq.question}
+                className="z-10"
+              >
                 <QuestionsAndAnswers key={faq.question} faq={faq} />
               </div>
             );

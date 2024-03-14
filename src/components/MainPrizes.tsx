@@ -18,7 +18,10 @@ export function MainPrizes() {
       </div>
 
       <div className="flex flex-col gap-x-3 flex-wrap gap-y-4 px-4">
-        <div className="z-0 max-w-2xl font-noto-sans mx-auto flex flex-col items-center justify-evenly space-y-4 rounded-lg border border-gray-800 bg-[#121930] p-8">
+        <div
+          data-aos="flip-right"
+          className="z-0 max-w-2xl font-noto-sans mx-auto flex flex-col items-center justify-evenly space-y-4 rounded-lg border border-gray-800 bg-[#121930] p-8"
+        >
           <div className="flex h-16 w-16 items-center justify-center rounded-full bg-indigo-500">
             <IconTrophy size={48} stroke={1.5} color="#fff" />
           </div>
@@ -27,7 +30,10 @@ export function MainPrizes() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row gap-3">
-          <div className="z-0 max-w-2xl font-noto-sans mx-auto flex flex-col items-center justify-evenly space-y-4 rounded-lg border border-gray-800 bg-[#121930] p-8">
+          <div
+            data-aos="flip-right"
+            className="z-0 max-w-2xl font-noto-sans mx-auto flex flex-col items-center justify-evenly space-y-4 rounded-lg border border-gray-800 bg-[#121930] p-8"
+          >
             <div className="flex h-16 w-16 items-center justify-center rounded-full bg-indigo-500">
               <IconMedal2 size={48} stroke={1.5} color="#fff" />
             </div>
@@ -35,7 +41,10 @@ export function MainPrizes() {
               First Runner Up: Rs.22,222
             </div>
           </div>
-          <div className="z-0 max-w-2xl font-noto-sans mx-auto flex flex-col items-center justify-evenly space-y-4 rounded-lg border border-gray-800 bg-[#121930] p-8">
+          <div
+            data-aos="flip-right"
+            className="z-0 max-w-2xl font-noto-sans mx-auto flex flex-col items-center justify-evenly space-y-4 rounded-lg border border-gray-800 bg-[#121930] p-8"
+          >
             <div className="flex h-16 w-16 items-center justify-center rounded-full bg-indigo-500">
               <IconAward size={48} stroke={1.5} color="#fff" />
             </div>
@@ -44,7 +53,10 @@ export function MainPrizes() {
             </div>
           </div>
         </div>
-        <div className="z-0 max-w-2xl font-noto-sans mx-auto flex flex-col items-center justify-evenly space-y-4 rounded-lg border border-gray-800 bg-[#121930] p-8">
+        <div
+          data-aos="flip-right"
+          className="z-0 max-w-2xl font-noto-sans mx-auto flex flex-col items-center justify-evenly space-y-4 rounded-lg border border-gray-800 bg-[#121930] p-8"
+        >
           <div className="flex h-16 w-16 items-center justify-center rounded-full bg-indigo-500">
             <IconBulb size={48} stroke={1.5} color="#fff" />
           </div>

@@ -1,8 +1,13 @@
 import Image from "next/image";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import codelogo from "public/assets/heroimg.webp";
 
 export const Whatis = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <section
       id="About"
@@ -13,7 +18,7 @@ export const Whatis = () => {
       px-6  sm:pt-28 bg-[#F2F6FB] bg-contain"
     >
       <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-      <div className="max-w-2xl space-y-3 ">
+      <div className="max-w-2xl space-y-3 " data-aos="fade-right">
         <h2 className="font-noto-sans bg-clip-text  bg-gradient-to-b from-white to-[#AAAAAA] font-orbitron z-10 mb-6 text-4xl font-bold sm:text-5xl ">
           What is GRACATHON?
         </h2>
@@ -31,7 +36,7 @@ export const Whatis = () => {
           in the pursuit of positive change.
         </p>
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block" data-aos="fade-left">
         <Image src={codelogo} alt="codelogo" height={500} width={500} />
       </div>
       {/* <div className="px-16">

@@ -4,6 +4,9 @@ import {
   IconAward,
   IconRocket,
 } from "@tabler/icons-react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const WhyHackSRMApData = [
   {
@@ -33,6 +36,9 @@ const WhyHackSRMApData = [
 ];
 
 export const WhyHack = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section
       id="About"
@@ -52,6 +58,7 @@ export const WhyHack = () => {
       <div className="mt-16 grid font-noto-sans font-light grid-cols-1 gap-6 sm:grid-cols-2">
         {WhyHackSRMApData.map((data, index) => (
           <div
+            data-aos="fade-right"
             key={index}
             className="z-10 flex flex-col items-center justify-center space-y-3 p-8 transition duration-200 hover:shadow-lg rounded-lg border border-gray-800 bg-[#121930]"
           >

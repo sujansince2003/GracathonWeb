@@ -12,7 +12,7 @@ export function Timeline() {
       </div>
 
       <ol className="relative border-s border-gray-500 dark:border-gray-700">
-        <li className="mb-10 ms-4">
+        <li className="mb-10 ms-4" data-aos="fade-up" data-aos-duration="3000">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
             Phase 1: [Deadline 15th Chaitra]
@@ -28,7 +28,7 @@ export function Timeline() {
             embark on this journey of innovation.
           </p>
         </li>
-        <li className="mb-10 ms-4">
+        <li className="mb-10 ms-4" data-aos="fade-up" data-aos-duration="3000">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
             Phase 2: [17th Chaitra]
@@ -44,7 +44,7 @@ export function Timeline() {
             conducted online.
           </p>
         </li>
-        <li className="mb-10 ms-4">
+        <li className="mb-10 ms-4" data-aos="fade-up" data-aos-duration="3000">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
             Phase 3:
@@ -57,7 +57,7 @@ export function Timeline() {
             execution, usability, and potential impact.
           </p>
         </li>
-        <li className="mb-10 ms-4">
+        <li className="mb-10 ms-4" data-aos="fade-up" data-aos-duration="3000">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
             Phase 4:

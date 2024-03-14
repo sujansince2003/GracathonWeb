@@ -65,6 +65,7 @@ export const ThemeSection = () => {
       <div className="grid grid-cols-1 font-noto-sans gap-10 px-4 md:grid-cols-2 lg:grid-cols-3">
         {themesData.map((theme) => (
           <div
+            data-aos="zoom-in-up"
             key={theme.id}
             className="z-10 flex flex-col items-center justify-evenly space-y-4 rounded-lg border border-gray-800 bg-[#121930] p-8"
           >

@@ -11,6 +11,9 @@ import { Timeline } from "@/components/Timeline";
 import { Whatis } from "@/components/Whatis";
 import Link from "next/link";
 import { WhyHack } from "@/components/Whyhack";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const noto_sans = {
   subsets: ["latin"],
@@ -20,6 +23,9 @@ const noto_sans = {
 };
 
 export default function HomePage() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className={noto_sans.variable}>
       <Header />
