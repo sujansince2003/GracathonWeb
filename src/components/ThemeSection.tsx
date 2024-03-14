@@ -1,64 +1,55 @@
 import {
-  IconRobot,
-  IconBrandXbox,
-  IconCircuitDiodeZener,
-  IconCurrencyEthereum,
-  IconCardboards,
-  IconBrandOpenSource,
+  IconClipboardHeart as IconMedicalCross,
+  IconChartLine as IconBusinessChartGrowth,
+  IconBeach as IconTravelSuitcase,
+  IconBook,
+  IconUsersGroup as IconBuildingGovernment,
 } from "@tabler/icons-react";
 
 const themesData = [
   {
     id: 1,
-    name: "AI AND ML",
-    prize: "120 USD",
+    name: "Healthcare",
+
     description:
-      "Create innovative applications that leverage machine learning algorithms to solve complex problems, natural language and computer vision.",
-    icon: <IconRobot className="h-10 w-10 text-white" stroke={1.5} />,
+      "Develop innovative solutions to improve healthcare delivery, patient outcomes, and healthcare management leveraging technology such as telemedicine, wearable devices, or AI-driven diagnostics.",
+    icon: <IconMedicalCross className="h-10 w-10 text-white" stroke={1.5} />,
   },
   {
     id: 2,
-    name: "I-O-T",
-    prize: "120 USD",
+    name: "Entrepreneurship",
+
     description:
-      "Build connected devices and systems that collect and analyze data in real-time, creating innovative solutions that improve efficiency.",
+      "Create tools, platforms, or services to empower entrepreneurs, facilitate business growth, and drive economic development through innovative solutions in areas such as access to finance, market access, or mentorship.",
     icon: (
-      <IconCircuitDiodeZener className="h-10 w-10 text-white" stroke={1.5} />
+      <IconBusinessChartGrowth className="h-10 w-10 text-white" stroke={1.5} />
     ),
   },
   {
     id: 3,
-    name: "WEB3 AND FIN-TECH",
+    name: "Tourism",
 
     description:
-      "Build decentralized applications (dApps) that run on the blockchain, smart contracts to facilitate secure and transparent transactions.",
-    icon: (
-      <IconCurrencyEthereum className="h-10 w-10 text-white" stroke={1.5} />
-    ),
+      "Design solutions that enhance the tourism experience, promote sustainable tourism practices, and address challenges in areas such as destination management, cultural preservation, or travel accessibility.",
+    icon: <IconTravelSuitcase className="h-10 w-10 text-white" stroke={1.5} />,
   },
   {
     id: 4,
-    name: "OPEN INNOVATION",
+    name: "Education",
 
     description:
-      "Make Best use of Technology to solve real world problems and make a difference. which women can relate to.",
-    icon: <IconBrandOpenSource className="h-10 w-10 text-white" stroke={1.5} />,
+      "Develop innovative educational tools, platforms, or approaches to enhance learning outcomes, promote access to quality education, and address challenges such as remote learning, skills development, or inclusive education.",
+    icon: <IconBook className="h-10 w-10 text-white" stroke={1.5} />,
   },
   {
     id: 5,
-    name: "Best hack built on Polygon",
-    description:
-      "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks.",
+    name: "Public Sector",
 
-    icon: <IconCardboards className="h-10 w-10 text-white" stroke={1.5} />,
-  },
-  {
-    id: 6,
-    name: "Best hack built on Ethereum",
     description:
-      "ETHIndia is empowering the Ethereum Community through its various initiatives including hackathons, fellowships, grants, and more!",
-
-    icon: <IconBrandXbox className="h-10 w-10 text-white" stroke={1.5} />,
+      "Create solutions to improve government services, enhance public sector efficiency, and promote citizen engagement through innovative approaches such as digital government platforms, e-governance solutions, or data-driven policymaking.",
+    icon: (
+      <IconBuildingGovernment className="h-10 w-10 text-white" stroke={1.5} />
+    ),
   },
 ];
 
