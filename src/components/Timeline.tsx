@@ -14,10 +14,10 @@ export function Timeline() {
       <ol className="relative border-s border-gray-500 dark:border-gray-700">
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+          <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
             Phase 1: [Deadline 15th Chaitra]
           </time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 className="text-lg font-semibold text-black dark:text-white">
             Registration via Online Form:
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -30,10 +30,10 @@ export function Timeline() {
         </li>
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+          <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
             Phase 2: [17th Chaitra]
           </time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 className="text-lg font-semibold text-black dark:text-white">
             Prototype Development:
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -46,10 +46,10 @@ export function Timeline() {
         </li>
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+          <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
             Phase 3:
           </time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 className="text-lg font-semibold text-black dark:text-white">
             Selection of Finalists:
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -59,10 +59,10 @@ export function Timeline() {
         </li>
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+          <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
             Phase 4: [23th - 24th Chaitra]
           </time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 className="text-lg font-semibold text-black dark:text-white">
             Journey to the Grand Finale:
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
