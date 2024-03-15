@@ -17,7 +17,7 @@ export function Timeline() {
           <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
             Phase 1: [Deadline 15th Chaitra]
           </time>
-          <h3 className="text-lg font-semibold text-black dark:text-white">
+          <h3 className="text-lg font-semibold text-black ">
             Registration via Online Form:
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -33,7 +33,7 @@ export function Timeline() {
           <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
             Phase 2: [17th Chaitra]
           </time>
-          <h3 className="text-lg font-semibold text-black dark:text-white">
+          <h3 className="text-lg font-semibold text-black ">
             Prototype Development:
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -49,7 +49,7 @@ export function Timeline() {
           <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
             Phase 3:
           </time>
-          <h3 className="text-lg font-semibold text-black dark:text-white">
+          <h3 className="text-lg font-semibold text-black ">
             Selection of Finalists:
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -62,7 +62,7 @@ export function Timeline() {
           <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
             Phase 4:
           </time>
-          <h3 className="text-lg font-semibold text-black dark:text-white">
+          <h3 className="text-lg font-semibold text-black ">
             Journey to the Grand Finale:
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
