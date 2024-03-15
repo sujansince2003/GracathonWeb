@@ -47,7 +47,7 @@ export const WhyHack = () => {
       <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
       <div className="max-w-3xl space-y-3">
         <h2 className="font-noto-sans bg-clip-text text-[#121930] bg-gradient-to-b from-white to-[#AAAAAA] font-orbitron z-10 mb-6 text-4xl font-semibold sm:text-5xl">
-          Why you should participate in Gracethaon?
+          Why you should participate in Gracathon?
         </h2>
         {/* <p className="z-10 font-noto-sans text-xl text-[#121930]">
           Hack SRM is a 24-hour hackathon where you can build your dream project
