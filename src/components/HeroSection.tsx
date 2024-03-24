@@ -40,7 +40,7 @@ export const HeroSection = () => {
             />
           </div>
           <p className="text-xl font-semibold">
-            Join us on 25 & 26 Chaitra 2080 with curious geeks from across the
+            Join us on 5 & 6 Baisakh 2081 with curious geeks from across the
             nation for 24 hours of creation, innovation, & fun.
           </p>
           <div className="pt-6 z-10 flex gap-x-4 flex-col gap-y-4">

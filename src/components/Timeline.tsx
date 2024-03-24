@@ -31,7 +31,7 @@ export function Timeline() {
         <li className="mb-10 ms-4" data-aos="fade-up" data-aos-duration="1000">
           <div className="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
-            Phase 2: [17th Chaitra]
+            Phase 2: [30th Chaitra]
           </time>
           <h3 className="text-lg font-semibold text-black ">
             Prototype Development:
